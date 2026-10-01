@@ -36,25 +36,41 @@ class InkRecognizer {
             .addOnFailureListener { _modelState.value = ModelState.FAILED }
     }
 
-    /** strokes: 1画ごとの (x, y, 時刻ms) の列。候補文字列を返す（失敗時は空） */
+    /**
+     * strokes: 1画ごとの (x, y, 時刻ms) の列。候補文字列を返す（失敗時は空）。
+     * ML Kit は時刻が増加し続けることを前提にするので、全体で単調増加に補正する。
+     */
     fun recognize(
         strokes: List<List<Triple<Float, Float, Long>>>,
         width: Float,
         height: Float,
         onResult: (List<String>) -> Unit,
     ) {
-        val builder = Ink.builder()
-        strokes.forEach { pts ->
-            val sb = Ink.Stroke.builder()
-            pts.forEach { (x, y, t) -> sb.addPoint(Ink.Point.create(x, y, t)) }
-            builder.addStroke(sb.build())
+        try {
+            var lastT = -1L
+            val builder = Ink.builder()
+            strokes.filter { it.isNotEmpty() }.forEach { pts ->
+                val sb = Ink.Stroke.builder()
+                pts.forEach { (x, y, t) ->
+                    lastT = maxOf(t, lastT + 1)
+                    sb.addPoint(Ink.Point.create(x, y, lastT))
+                }
+                builder.addStroke(sb.build())
+            }
+            val contextBuilder = RecognitionContext.builder()
+            if (width > 0f && height > 0f) contextBuilder.setWritingArea(WritingArea(width, height))
+            recognizer.recognize(builder.build(), contextBuilder.build())
+                .addOnSuccessListener { r ->
+                    onResult(runCatching { r.candidates.map { it.text } }.getOrDefault(emptyList()))
+                }
+                .addOnFailureListener { e ->
+                    CrashLog.record("認識に失敗", e)
+                    onResult(emptyList())
+                }
+        } catch (e: Throwable) {
+            CrashLog.record("認識の準備で例外", e)
+            onResult(emptyList())
         }
-        val context = RecognitionContext.builder()
-            .setWritingArea(WritingArea(width, height))
-            .build()
-        recognizer.recognize(builder.build(), context)
-            .addOnSuccessListener { r -> onResult(r.candidates.map { it.text }) }
-            .addOnFailureListener { onResult(emptyList()) }
     }
 
     fun close() = recognizer.close()

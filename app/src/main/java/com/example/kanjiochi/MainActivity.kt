@@ -7,6 +7,7 @@ import androidx.activity.viewModels
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.*
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.example.kanjiochi.game.CrashLog
 import com.example.kanjiochi.game.GameViewModel
 import com.example.kanjiochi.game.InkRecognizer
 import com.example.kanjiochi.model.GamePhase
@@ -19,6 +20,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        CrashLog.install(applicationContext)
         recognizer.prepare()
         setContent {
             MaterialTheme {
@@ -40,7 +42,12 @@ class MainActivity : ComponentActivity() {
                         modelReady = modelState == InkRecognizer.ModelState.READY,
                         onSubmitReading = { vm.submitReading(it) },
                         onRecognize = { strokes, w, h ->
-                            recognizer.recognize(strokes, w, h) { vm.submitWrittenChar(it) }
+                            runCatching {
+                                recognizer.recognize(strokes, w, h) { cands ->
+                                    runCatching { vm.submitWrittenChar(cands) }
+                                        .onFailure { CrashLog.record("判定で例外", it) }
+                                }
+                            }.onFailure { CrashLog.record("認識呼び出しで例外", it) }
                         },
                     )
                     GamePhase.GAME_OVER -> GameOverScreen(state, onRetry = vm::start, onBack = vm::backToStart)

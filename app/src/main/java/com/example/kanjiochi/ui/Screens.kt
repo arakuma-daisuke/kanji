@@ -2,6 +2,7 @@ package com.example.kanjiochi.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*
@@ -15,6 +16,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.kanjiochi.game.CrashLog
 import com.example.kanjiochi.game.InkRecognizer
 import com.example.kanjiochi.model.*
 
@@ -57,6 +59,18 @@ fun StartScreen(
             Text("スタート", fontSize = 20.sp)
         }
         Spacer(Modifier.height(16.dp))
+        var report by remember { mutableStateOf(CrashLog.pending) }
+        report?.let { text ->
+            Text("前回のエラー内容（開発者に見せてください）", color = Color(0xFFFF8A80), fontSize = 12.sp)
+            androidx.compose.foundation.text.selection.SelectionContainer {
+                Text(
+                    text.take(1500), color = Color.LightGray, fontSize = 9.sp,
+                    modifier = Modifier.heightIn(max = 160.dp)
+                        .verticalScroll(androidx.compose.foundation.rememberScrollState()),
+                )
+            }
+            TextButton(onClick = { CrashLog.clear(); report = null }) { Text("エラー表示を閉じる") }
+        }
         when (modelState) {
             InkRecognizer.ModelState.LOADING ->
                 Text("手書きモデルを準備中…（初回のみダウンロード）", color = Color.LightGray, fontSize = 12.sp)
