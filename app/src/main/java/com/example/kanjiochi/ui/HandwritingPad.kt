@@ -31,7 +31,7 @@ fun HandwritingPad(
 ) {
     val strokes = remember { mutableStateListOf<List<InkPoint>>() }
     var current by remember { mutableStateOf<List<InkPoint>>(emptyList()) }
-    var size by remember { mutableStateOf(IntSize.Zero) }
+    var padSize by remember { mutableStateOf(IntSize.Zero) }
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Canvas(
@@ -39,7 +39,7 @@ fun HandwritingPad(
                 .weight(1f)
                 .fillMaxWidth()
                 .background(Color(0xFFFFFDF5))
-                .onSizeChanged { size = it }
+                .onSizeChanged { padSize = it }
                 .pointerInput(Unit) {
                     awaitEachGesture {
                         val down = awaitFirstDown()
@@ -65,8 +65,8 @@ fun HandwritingPad(
             }
             // 目安の十字線
             val guide = Color(0x22000000)
-            drawLine(guide, Offset(size.width / 2f, 0f), Offset(size.width / 2f, size.height.toFloat()), 1.dp.toPx())
-            drawLine(guide, Offset(0f, size.height / 2f), Offset(size.width.toFloat(), size.height / 2f), 1.dp.toPx())
+            drawLine(guide, Offset(padSize.width / 2f, 0f), Offset(padSize.width / 2f, padSize.height.toFloat()), 1.dp.toPx())
+            drawLine(guide, Offset(0f, padSize.height / 2f), Offset(padSize.width.toFloat(), padSize.height / 2f), 1.dp.toPx())
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             OutlinedButton(onClick = { strokes.clear(); current = emptyList() }, Modifier.weight(1f)) {
@@ -75,7 +75,7 @@ fun HandwritingPad(
             Button(
                 onClick = {
                     if (strokes.isNotEmpty()) {
-                        onRecognize(strokes.toList(), size.width.toFloat(), size.height.toFloat())
+                        onRecognize(strokes.toList(), padSize.width.toFloat(), padSize.height.toFloat())
                         strokes.clear()
                     }
                 },
