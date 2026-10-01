@@ -1,0 +1,2102 @@
+[
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "憂鬱",
+  "reading": "ゆううつ",
+  "sentence": "雨続きで気分が憂鬱だ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "憂鬱",
+  "reading": "ゆううつ",
+  "sentence": "雨続きで気分がユウウツだ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "薔薇",
+  "reading": "ばら",
+  "sentence": "庭に薔薇が咲いた"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "薔薇",
+  "reading": "ばら",
+  "sentence": "庭にバラが咲いた"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "蜜柑",
+  "reading": "みかん",
+  "sentence": "冬は蜜柑をよく食べる"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "蜜柑",
+  "reading": "みかん",
+  "sentence": "冬はミカンをよく食べる"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "躊躇",
+  "reading": "ちゅうちょ",
+  "sentence": "発言を躊躇する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "躊躇",
+  "reading": "ちゅうちょ",
+  "sentence": "発言をチュウチョする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "曖昧",
+  "reading": "あいまい",
+  "sentence": "返事が曖昧で困る"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "曖昧",
+  "reading": "あいまい",
+  "sentence": "返事がアイマイで困る"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "覚悟",
+  "reading": "かくご",
+  "sentence": "覚悟を決めて挑む"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "覚悟",
+  "reading": "かくご",
+  "sentence": "カクゴを決めて挑む"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "機嫌",
+  "reading": "きげん",
+  "sentence": "弟は朝から機嫌がよい"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "機嫌",
+  "reading": "きげん",
+  "sentence": "弟は朝からキゲンがよい"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "謙虚",
+  "reading": "けんきょ",
+  "sentence": "いつも謙虚な姿勢でいたい"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "謙虚",
+  "reading": "けんきょ",
+  "sentence": "いつもケンキョな姿勢でいたい"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "堪能",
+  "reading": "たんのう",
+  "sentence": "温泉を堪能した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "堪能",
+  "reading": "たんのう",
+  "sentence": "温泉をタンノウした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "貢献",
+  "reading": "こうけん",
+  "sentence": "地域に貢献する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "貢献",
+  "reading": "こうけん",
+  "sentence": "地域にコウケンする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "克服",
+  "reading": "こくふく",
+  "sentence": "苦手を克服する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "克服",
+  "reading": "こくふく",
+  "sentence": "苦手をコクフクする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "誘惑",
+  "reading": "ゆうわく",
+  "sentence": "甘い誘惑に負けた"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "誘惑",
+  "reading": "ゆうわく",
+  "sentence": "甘いユウワクに負けた"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "尊敬",
+  "reading": "そんけい",
+  "sentence": "先生を尊敬している"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "尊敬",
+  "reading": "そんけい",
+  "sentence": "先生をソンケイしている"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "沈黙",
+  "reading": "ちんもく",
+  "sentence": "会議室に沈黙が流れた"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "沈黙",
+  "reading": "ちんもく",
+  "sentence": "会議室にチンモクが流れた"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "緊張",
+  "reading": "きんちょう",
+  "sentence": "発表前で緊張する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "緊張",
+  "reading": "きんちょう",
+  "sentence": "発表前でキンチョウする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "柔軟",
+  "reading": "じゅうなん",
+  "sentence": "柔軟な考え方を持つ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "柔軟",
+  "reading": "じゅうなん",
+  "sentence": "ジュウナンな考え方を持つ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "慎重",
+  "reading": "しんちょう",
+  "sentence": "慎重に道を選ぶ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "慎重",
+  "reading": "しんちょう",
+  "sentence": "シンチョウに道を選ぶ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "衝突",
+  "reading": "しょうとつ",
+  "sentence": "二台の車が衝突した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "衝突",
+  "reading": "しょうとつ",
+  "sentence": "二台の車がショウトツした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "普及",
+  "reading": "ふきゅう",
+  "sentence": "スマホが普及した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "普及",
+  "reading": "ふきゅう",
+  "sentence": "スマホがフキュウした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "拒否",
+  "reading": "きょひ",
+  "sentence": "誘いを拒否した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "拒否",
+  "reading": "きょひ",
+  "sentence": "誘いをキョヒした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "依頼",
+  "reading": "いらい",
+  "sentence": "仕事を依頼する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "依頼",
+  "reading": "いらい",
+  "sentence": "仕事をイライする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "維持",
+  "reading": "いじ",
+  "sentence": "健康を維持する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "維持",
+  "reading": "いじ",
+  "sentence": "健康をイジする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "供給",
+  "reading": "きょうきゅう",
+  "sentence": "電力の供給が止まる"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "供給",
+  "reading": "きょうきゅう",
+  "sentence": "電力のキョウキュウが止まる"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "看板",
+  "reading": "かんばん",
+  "sentence": "店の看板を替えた"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "看板",
+  "reading": "かんばん",
+  "sentence": "店のカンバンを替えた"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "岐路",
+  "reading": "きろ",
+  "sentence": "人生の岐路に立つ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "岐路",
+  "reading": "きろ",
+  "sentence": "人生のキロに立つ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "享受",
+  "reading": "きょうじゅ",
+  "sentence": "平和を享受する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "享受",
+  "reading": "きょうじゅ",
+  "sentence": "平和をキョウジュする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "敬遠",
+  "reading": "けいえん",
+  "sentence": "難しい本を敬遠する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "敬遠",
+  "reading": "けいえん",
+  "sentence": "難しい本をケイエンする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "傑作",
+  "reading": "けっさく",
+  "sentence": "これは傑作の映画だ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "傑作",
+  "reading": "けっさく",
+  "sentence": "これはケッサクの映画だ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "謝罪",
+  "reading": "しゃざい",
+  "sentence": "丁寧に謝罪した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "謝罪",
+  "reading": "しゃざい",
+  "sentence": "丁寧にシャザイした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "衰退",
+  "reading": "すいたい",
+  "sentence": "町の産業が衰退した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "衰退",
+  "reading": "すいたい",
+  "sentence": "町の産業がスイタイした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "省略",
+  "reading": "しょうりゃく",
+  "sentence": "説明を省略する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "省略",
+  "reading": "しょうりゃく",
+  "sentence": "説明をショウリャクする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "尋常",
+  "reading": "じんじょう",
+  "sentence": "尋常でない暑さだ"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "尋常",
+  "reading": "じんじょう",
+  "sentence": "ジンジョウでない暑さだ"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "遂行",
+  "reading": "すいこう",
+  "sentence": "任務を遂行する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "遂行",
+  "reading": "すいこう",
+  "sentence": "任務をスイコウする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "粗末",
+  "reading": "そまつ",
+  "sentence": "物を粗末にしない"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "粗末",
+  "reading": "そまつ",
+  "sentence": "物をソマツにしない"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "怠慢",
+  "reading": "たいまん",
+  "sentence": "怠慢を反省する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "怠慢",
+  "reading": "たいまん",
+  "sentence": "タイマンを反省する"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "貯蓄",
+  "reading": "ちょちく",
+  "sentence": "毎月少しずつ貯蓄する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "貯蓄",
+  "reading": "ちょちく",
+  "sentence": "毎月少しずつチョチクする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "陳列",
+  "reading": "ちんれつ",
+  "sentence": "商品を棚に陳列する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "陳列",
+  "reading": "ちんれつ",
+  "sentence": "商品を棚にチンレツする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "到達",
+  "reading": "とうたつ",
+  "sentence": "山頂に到達した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "到達",
+  "reading": "とうたつ",
+  "sentence": "山頂にトウタツした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "透明",
+  "reading": "とうめい",
+  "sentence": "透明なガラスの器"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "透明",
+  "reading": "とうめい",
+  "sentence": "トウメイなガラスの器"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "認識",
+  "reading": "にんしき",
+  "sentence": "認識が甘かった"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "認識",
+  "reading": "にんしき",
+  "sentence": "ニンシキが甘かった"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "紹介",
+  "reading": "しょうかい",
+  "sentence": "友人を家族に紹介する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "紹介",
+  "reading": "しょうかい",
+  "sentence": "友人を家族にショウカイする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "勧誘",
+  "reading": "かんゆう",
+  "sentence": "部活動に勧誘された"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "勧誘",
+  "reading": "かんゆう",
+  "sentence": "部活動にカンユウされた"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "寛大",
+  "reading": "かんだい",
+  "sentence": "寛大な処置を願う"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "寛大",
+  "reading": "かんだい",
+  "sentence": "カンダイな処置を願う"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "幻想",
+  "reading": "げんそう",
+  "sentence": "幻想的な景色が広がる"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "幻想",
+  "reading": "げんそう",
+  "sentence": "ゲンソウ的な景色が広がる"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "兼業",
+  "reading": "けんぎょう",
+  "sentence": "兼業で農家をしている"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "兼業",
+  "reading": "けんぎょう",
+  "sentence": "ケンギョウで農家をしている"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "枯渇",
+  "reading": "こかつ",
+  "sentence": "資源が枯渇する"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "枯渇",
+  "reading": "こかつ",
+  "sentence": "資源がコカツする"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "朗読",
+  "reading": "ろうどく",
+  "sentence": "詩を朗読した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "朗読",
+  "reading": "ろうどく",
+  "sentence": "詩をロウドクした"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "妥協",
+  "reading": "だきょう",
+  "sentence": "妥協せずに作り上げる"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "妥協",
+  "reading": "だきょう",
+  "sentence": "ダキョウせずに作り上げる"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "需要",
+  "reading": "じゅよう",
+  "sentence": "夏はアイスの需要が高い"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "需要",
+  "reading": "じゅよう",
+  "sentence": "夏はアイスのジュヨウが高い"
+ },
+ {
+  "level": 3,
+  "type": "read",
+  "kanji": "滞在",
+  "reading": "たいざい",
+  "sentence": "京都に三日間滞在した"
+ },
+ {
+  "level": 3,
+  "type": "write",
+  "kanji": "滞在",
+  "reading": "たいざい",
+  "sentence": "京都に三日間タイザイした"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "憧憬",
+  "reading": "しょうけい",
+  "sentence": "都会への憧憬を抱く"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "憧憬",
+  "reading": "しょうけい",
+  "sentence": "都会へのショウケイを抱く"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "陥穽",
+  "reading": "かんせい",
+  "sentence": "陥穽にはまってしまった"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "陥穽",
+  "reading": "かんせい",
+  "sentence": "カンセイにはまってしまった"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "忌憚",
+  "reading": "きたん",
+  "sentence": "忌憚のない意見を聞く"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "忌憚",
+  "reading": "きたん",
+  "sentence": "キタンのない意見を聞く"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "矜持",
+  "reading": "きょうじ",
+  "sentence": "職人の矜持を守る"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "矜持",
+  "reading": "きょうじ",
+  "sentence": "職人のキョウジを守る"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "翻弄",
+  "reading": "ほんろう",
+  "sentence": "波に翻弄される小舟"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "翻弄",
+  "reading": "ほんろう",
+  "sentence": "波にホンロウされる小舟"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "払拭",
+  "reading": "ふっしょく",
+  "sentence": "不安を払拭する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "払拭",
+  "reading": "ふっしょく",
+  "sentence": "不安をフッショクする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "逸脱",
+  "reading": "いつだつ",
+  "sentence": "規則から逸脱した行動"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "逸脱",
+  "reading": "いつだつ",
+  "sentence": "規則からイツダツした行動"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "暫定",
+  "reading": "ざんてい",
+  "sentence": "暫定的に決めておく"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "暫定",
+  "reading": "ざんてい",
+  "sentence": "ザンテイ的に決めておく"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "斬新",
+  "reading": "ざんしん",
+  "sentence": "斬新なデザインの建物"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "斬新",
+  "reading": "ざんしん",
+  "sentence": "ザンシンなデザインの建物"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "遵守",
+  "reading": "じゅんしゅ",
+  "sentence": "ルールを遵守する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "遵守",
+  "reading": "じゅんしゅ",
+  "sentence": "ルールをジュンシュする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "洞察",
+  "reading": "どうさつ",
+  "sentence": "鋭い洞察力を持つ"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "洞察",
+  "reading": "どうさつ",
+  "sentence": "鋭いドウサツ力を持つ"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "払底",
+  "reading": "ふってい",
+  "sentence": "在庫が払底した"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "払底",
+  "reading": "ふってい",
+  "sentence": "在庫がフッテイした"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "懸念",
+  "reading": "けねん",
+  "sentence": "事故の懸念がある"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "懸念",
+  "reading": "けねん",
+  "sentence": "事故のケネンがある"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "勘案",
+  "reading": "かんあん",
+  "sentence": "事情を勘案する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "勘案",
+  "reading": "かんあん",
+  "sentence": "事情をカンアンする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "緻密",
+  "reading": "ちみつ",
+  "sentence": "緻密な計画を立てる"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "緻密",
+  "reading": "ちみつ",
+  "sentence": "チミツな計画を立てる"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "渇望",
+  "reading": "かつぼう",
+  "sentence": "自由を渇望する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "渇望",
+  "reading": "かつぼう",
+  "sentence": "自由をカツボウする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "悠久",
+  "reading": "ゆうきゅう",
+  "sentence": "悠久の歴史を感じる"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "悠久",
+  "reading": "ゆうきゅう",
+  "sentence": "ユウキュウの歴史を感じる"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "傍観",
+  "reading": "ぼうかん",
+  "sentence": "事態を傍観する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "傍観",
+  "reading": "ぼうかん",
+  "sentence": "事態をボウカンする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "魅了",
+  "reading": "みりょう",
+  "sentence": "歌声に魅了された"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "魅了",
+  "reading": "みりょう",
+  "sentence": "歌声にミリョウされた"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "脆弱",
+  "reading": "ぜいじゃく",
+  "sentence": "脆弱な地盤を補強する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "脆弱",
+  "reading": "ぜいじゃく",
+  "sentence": "ゼイジャクな地盤を補強する"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "顕著",
+  "reading": "けんちょ",
+  "sentence": "顕著な効果が現れた"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "顕著",
+  "reading": "けんちょ",
+  "sentence": "ケンチョな効果が現れた"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "凌駕",
+  "reading": "りょうが",
+  "sentence": "予想を凌駕する成績"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "凌駕",
+  "reading": "りょうが",
+  "sentence": "予想をリョウガする成績"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "看過",
+  "reading": "かんか",
+  "sentence": "看過できない問題だ"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "看過",
+  "reading": "かんか",
+  "sentence": "カンカできない問題だ"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "滋養",
+  "reading": "じよう",
+  "sentence": "滋養のある食べ物"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "滋養",
+  "reading": "じよう",
+  "sentence": "ジヨウのある食べ物"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "嗜好",
+  "reading": "しこう",
+  "sentence": "嗜好品を控える"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "嗜好",
+  "reading": "しこう",
+  "sentence": "シコウ品を控える"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "奔走",
+  "reading": "ほんそう",
+  "sentence": "資金集めに奔走する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "奔走",
+  "reading": "ほんそう",
+  "sentence": "資金集めにホンソウする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "雑踏",
+  "reading": "ざっとう",
+  "sentence": "駅前の雑踏を歩く"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "雑踏",
+  "reading": "ざっとう",
+  "sentence": "駅前のザットウを歩く"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "牽制",
+  "reading": "けんせい",
+  "sentence": "相手を牽制する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "牽制",
+  "reading": "けんせい",
+  "sentence": "相手をケンセイする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "謙遜",
+  "reading": "けんそん",
+  "sentence": "謙遜して語らない"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "謙遜",
+  "reading": "けんそん",
+  "sentence": "ケンソンして語らない"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "拘泥",
+  "reading": "こうでい",
+  "sentence": "形式に拘泥する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "拘泥",
+  "reading": "こうでい",
+  "sentence": "形式にコウデイする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "恣意",
+  "reading": "しい",
+  "sentence": "恣意的な判断は避ける"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "恣意",
+  "reading": "しい",
+  "sentence": "シイ的な判断は避ける"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "惜別",
+  "reading": "せきべつ",
+  "sentence": "惜別の念を込めて見送る"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "惜別",
+  "reading": "せきべつ",
+  "sentence": "セキベツの念を込めて見送る"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "漸進",
+  "reading": "ぜんしん",
+  "sentence": "漸進的に改革を進める"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "漸進",
+  "reading": "ぜんしん",
+  "sentence": "ゼンシン的に改革を進める"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "嘱託",
+  "reading": "しょくたく",
+  "sentence": "嘱託職員として働く"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "嘱託",
+  "reading": "しょくたく",
+  "sentence": "ショクタク職員として働く"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "陶酔",
+  "reading": "とうすい",
+  "sentence": "音楽に陶酔する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "陶酔",
+  "reading": "とうすい",
+  "sentence": "音楽にトウスイする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "曖昧模糊",
+  "reading": "あいまいもこ",
+  "sentence": "曖昧模糊とした話"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "曖昧模糊",
+  "reading": "あいまいもこ",
+  "sentence": "アイマイモコとした話"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "安寧",
+  "reading": "あんねい",
+  "sentence": "世の安寧を願う"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "安寧",
+  "reading": "あんねい",
+  "sentence": "世のアンネイを願う"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "慰撫",
+  "reading": "いぶ",
+  "sentence": "被災者を慰撫する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "慰撫",
+  "reading": "いぶ",
+  "sentence": "被災者をイブする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "畏敬",
+  "reading": "いけい",
+  "sentence": "自然への畏敬の念"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "畏敬",
+  "reading": "いけい",
+  "sentence": "自然へのイケイの念"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "隠蔽",
+  "reading": "いんぺい",
+  "sentence": "事実を隠蔽する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "隠蔽",
+  "reading": "いんぺい",
+  "sentence": "事実をインペイする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "瞠目",
+  "reading": "どうもく",
+  "sentence": "見事な演技に瞠目した"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "瞠目",
+  "reading": "どうもく",
+  "sentence": "見事な演技にドウモクした"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "怨恨",
+  "reading": "えんこん",
+  "sentence": "怨恨による事件"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "怨恨",
+  "reading": "えんこん",
+  "sentence": "エンコンによる事件"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "乖離",
+  "reading": "かいり",
+  "sentence": "理想と現実が乖離する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "乖離",
+  "reading": "かいり",
+  "sentence": "理想と現実がカイリする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "葛藤",
+  "reading": "かっとう",
+  "sentence": "心の中で葛藤する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "葛藤",
+  "reading": "かっとう",
+  "sentence": "心の中でカットウする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "寡黙",
+  "reading": "かもく",
+  "sentence": "寡黙な職人だ"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "寡黙",
+  "reading": "かもく",
+  "sentence": "カモクな職人だ"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "糾弾",
+  "reading": "きゅうだん",
+  "sentence": "不正を糾弾する"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "糾弾",
+  "reading": "きゅうだん",
+  "sentence": "不正をキュウダンする"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "欣快",
+  "reading": "きんかい",
+  "sentence": "欣快に堪えない"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "欣快",
+  "reading": "きんかい",
+  "sentence": "キンカイに堪えない"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "稀有",
+  "reading": "けう",
+  "sentence": "稀有な才能の持ち主"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "稀有",
+  "reading": "けう",
+  "sentence": "ケウな才能の持ち主"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "巧拙",
+  "reading": "こうせつ",
+  "sentence": "出来の巧拙は問わない"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "巧拙",
+  "reading": "こうせつ",
+  "sentence": "出来のコウセツは問わない"
+ },
+ {
+  "level": 2,
+  "type": "read",
+  "kanji": "昏睡",
+  "reading": "こんすい",
+  "sentence": "昏睡状態から目覚めた"
+ },
+ {
+  "level": 2,
+  "type": "write",
+  "kanji": "昏睡",
+  "reading": "こんすい",
+  "sentence": "コンスイ状態から目覚めた"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "顰蹙",
+  "reading": "ひんしゅく",
+  "sentence": "大声での会話は顰蹙を買う"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "顰蹙",
+  "reading": "ひんしゅく",
+  "sentence": "大声での会話はヒンシュクを買う"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "蹉跌",
+  "reading": "さてつ",
+  "sentence": "計画が蹉跌をきたした"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "蹉跌",
+  "reading": "さてつ",
+  "sentence": "計画がサテツをきたした"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "齟齬",
+  "reading": "そご",
+  "sentence": "双方の話に齟齬がある"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "齟齬",
+  "reading": "そご",
+  "sentence": "双方の話にソゴがある"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "忖度",
+  "reading": "そんたく",
+  "sentence": "相手の気持ちを忖度する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "忖度",
+  "reading": "そんたく",
+  "sentence": "相手の気持ちをソンタクする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "輻輳",
+  "reading": "ふくそう",
+  "sentence": "回線が輻輳している"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "輻輳",
+  "reading": "ふくそう",
+  "sentence": "回線がフクソウしている"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "瑕疵",
+  "reading": "かし",
+  "sentence": "契約に瑕疵が見つかった"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "瑕疵",
+  "reading": "かし",
+  "sentence": "契約にカシが見つかった"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "諧謔",
+  "reading": "かいぎゃく",
+  "sentence": "諧謔に富んだ文章"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "諧謔",
+  "reading": "かいぎゃく",
+  "sentence": "カイギャクに富んだ文章"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "恬淡",
+  "reading": "てんたん",
+  "sentence": "金銭に恬淡な人"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "恬淡",
+  "reading": "てんたん",
+  "sentence": "金銭にテンタンな人"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "鞅掌",
+  "reading": "おうしょう",
+  "sentence": "公務に鞅掌する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "鞅掌",
+  "reading": "おうしょう",
+  "sentence": "公務にオウショウする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "鼓舞",
+  "reading": "こぶ",
+  "sentence": "選手を鼓舞する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "鼓舞",
+  "reading": "こぶ",
+  "sentence": "選手をコブする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "跋扈",
+  "reading": "ばっこ",
+  "sentence": "悪人が跋扈する世"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "跋扈",
+  "reading": "ばっこ",
+  "sentence": "悪人がバッコする世"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "驕慢",
+  "reading": "きょうまん",
+  "sentence": "驕慢な態度を改める"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "驕慢",
+  "reading": "きょうまん",
+  "sentence": "キョウマンな態度を改める"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "斟酌",
+  "reading": "しんしゃく",
+  "sentence": "事情を斟酌して判断する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "斟酌",
+  "reading": "しんしゃく",
+  "sentence": "事情をシンシャクして判断する"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "瞑想",
+  "reading": "めいそう",
+  "sentence": "静かな部屋で瞑想する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "瞑想",
+  "reading": "めいそう",
+  "sentence": "静かな部屋でメイソウする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "慟哭",
+  "reading": "どうこく",
+  "sentence": "訃報に慟哭した"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "慟哭",
+  "reading": "どうこく",
+  "sentence": "訃報にドウコクした"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "逼迫",
+  "reading": "ひっぱく",
+  "sentence": "財政が逼迫している"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "逼迫",
+  "reading": "ひっぱく",
+  "sentence": "財政がヒッパクしている"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "躍如",
+  "reading": "やくじょ",
+  "sentence": "面目躍如の活躍"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "躍如",
+  "reading": "やくじょ",
+  "sentence": "面目ヤクジョの活躍"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "虚妄",
+  "reading": "きょもう",
+  "sentence": "虚妄の説を退ける"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "虚妄",
+  "reading": "きょもう",
+  "sentence": "キョモウの説を退ける"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "饒舌",
+  "reading": "じょうぜつ",
+  "sentence": "酒が入ると饒舌になる"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "饒舌",
+  "reading": "じょうぜつ",
+  "sentence": "酒が入るとジョウゼツになる"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "慇懃",
+  "reading": "いんぎん",
+  "sentence": "慇懃な物腰の紳士"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "慇懃",
+  "reading": "いんぎん",
+  "sentence": "インギンな物腰の紳士"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "烏滸",
+  "reading": "おこ",
+  "sentence": "烏滸がましい願いです"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "烏滸",
+  "reading": "おこ",
+  "sentence": "オコがましい願いです"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "蓋然",
+  "reading": "がいぜん",
+  "sentence": "蓋然性の高い推測"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "蓋然",
+  "reading": "がいぜん",
+  "sentence": "ガイゼン性の高い推測"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "溯源",
+  "reading": "そげん",
+  "sentence": "語の由来を溯源する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "溯源",
+  "reading": "そげん",
+  "sentence": "語の由来をソゲンする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "蠱惑",
+  "reading": "こわく",
+  "sentence": "蠱惑的な微笑み"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "蠱惑",
+  "reading": "こわく",
+  "sentence": "コワク的な微笑み"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "矍鑠",
+  "reading": "かくしゃく",
+  "sentence": "矍鑠とした老人"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "矍鑠",
+  "reading": "かくしゃく",
+  "sentence": "カクシャクとした老人"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "悉皆",
+  "reading": "しっかい",
+  "sentence": "悉皆調査を実施する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "悉皆",
+  "reading": "しっかい",
+  "sentence": "シッカイ調査を実施する"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "羨望",
+  "reading": "せんぼう",
+  "sentence": "羨望の眼差しを受ける"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "羨望",
+  "reading": "せんぼう",
+  "sentence": "センボウの眼差しを受ける"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "遜色",
+  "reading": "そんしょく",
+  "sentence": "他に遜色ない出来栄え"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "遜色",
+  "reading": "そんしょく",
+  "sentence": "他にソンショクない出来栄え"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "暢気",
+  "reading": "のんき",
+  "sentence": "暢気に構えている"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "暢気",
+  "reading": "のんき",
+  "sentence": "ノンキに構えている"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "悖理",
+  "reading": "はいり",
+  "sentence": "悖理な主張を退ける"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "悖理",
+  "reading": "はいり",
+  "sentence": "ハイリな主張を退ける"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "剽窃",
+  "reading": "ひょうせつ",
+  "sentence": "論文を剽窃した"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "剽窃",
+  "reading": "ひょうせつ",
+  "sentence": "論文をヒョウセツした"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "諫言",
+  "reading": "かんげん",
+  "sentence": "主君に諫言する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "諫言",
+  "reading": "かんげん",
+  "sentence": "主君にカンゲンする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "慚愧",
+  "reading": "ざんき",
+  "sentence": "慚愧に堪えない"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "慚愧",
+  "reading": "ざんき",
+  "sentence": "ザンキに堪えない"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "嚆矢",
+  "reading": "こうし",
+  "sentence": "これが改革の嚆矢となる"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "嚆矢",
+  "reading": "こうし",
+  "sentence": "これが改革のコウシとなる"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "凋落",
+  "reading": "ちょうらく",
+  "sentence": "名門の凋落を描く"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "凋落",
+  "reading": "ちょうらく",
+  "sentence": "名門のチョウラクを描く"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "鬱蒼",
+  "reading": "うっそう",
+  "sentence": "鬱蒼とした森を進む"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "鬱蒼",
+  "reading": "うっそう",
+  "sentence": "ウッソウとした森を進む"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "茫洋",
+  "reading": "ぼうよう",
+  "sentence": "茫洋とした海原"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "茫洋",
+  "reading": "ぼうよう",
+  "sentence": "ボウヨウとした海原"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "頽廃",
+  "reading": "たいはい",
+  "sentence": "頽廃的な空気が漂う"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "頽廃",
+  "reading": "たいはい",
+  "sentence": "タイハイ的な空気が漂う"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "漠然",
+  "reading": "ばくぜん",
+  "sentence": "漠然とした不安"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "漠然",
+  "reading": "ばくぜん",
+  "sentence": "バクゼンとした不安"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "哀惜",
+  "reading": "あいせき",
+  "sentence": "故人を哀惜する"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "哀惜",
+  "reading": "あいせき",
+  "sentence": "故人をアイセキする"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "蘊蓄",
+  "reading": "うんちく",
+  "sentence": "ワインの蘊蓄を語る"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "蘊蓄",
+  "reading": "うんちく",
+  "sentence": "ワインのウンチクを語る"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "会釈",
+  "reading": "えしゃく",
+  "sentence": "軽く会釈を交わす"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "会釈",
+  "reading": "えしゃく",
+  "sentence": "軽くエシャクを交わす"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "悔悛",
+  "reading": "かいしゅん",
+  "sentence": "悔悛の情を示す"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "悔悛",
+  "reading": "かいしゅん",
+  "sentence": "カイシュンの情を示す"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "乾坤",
+  "reading": "けんこん",
+  "sentence": "乾坤一擲の勝負に出る"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "乾坤",
+  "reading": "けんこん",
+  "sentence": "ケンコン一擲の勝負に出る"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "恪勤",
+  "reading": "かっきん",
+  "sentence": "恪勤精励の人"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "恪勤",
+  "reading": "かっきん",
+  "sentence": "カッキン精励の人"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "毀誉",
+  "reading": "きよ",
+  "sentence": "毀誉褒貶を気にしない"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "毀誉",
+  "reading": "きよ",
+  "sentence": "キヨ褒貶を気にしない"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "驚愕",
+  "reading": "きょうがく",
+  "sentence": "結果に驚愕した"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "驚愕",
+  "reading": "きょうがく",
+  "sentence": "結果にキョウガクした"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "罫線",
+  "reading": "けいせん",
+  "sentence": "罫線の入ったノート"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "罫線",
+  "reading": "けいせん",
+  "sentence": "ケイセンの入ったノート"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "拿捕",
+  "reading": "だほ",
+  "sentence": "不審船を拿捕した"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "拿捕",
+  "reading": "だほ",
+  "sentence": "不審船をダホした"
+ },
+ {
+  "level": 1,
+  "type": "read",
+  "kanji": "煩瑣",
+  "reading": "はんさ",
+  "sentence": "煩瑣な手続きを簡素にする"
+ },
+ {
+  "level": 1,
+  "type": "write",
+  "kanji": "煩瑣",
+  "reading": "はんさ",
+  "sentence": "ハンサな手続きを簡素にする"
+ }
+]
