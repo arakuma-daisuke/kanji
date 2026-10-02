@@ -16,6 +16,17 @@ android {
         versionName = "1.0"
     }
 
+    // GitHub Actionsのビルドごとに署名が変わると上書き更新できないため、署名鍵をリポジトリに固定する
+    // （個人利用のデバッグ用の鍵。公開用ではない）
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("keystore/debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
