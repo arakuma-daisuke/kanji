@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 爆弾アイコン（アプリ内の爆弾と同じ配色） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 胴体 -->
+    <path
+        android:fillColor="#2C2C2A"
+        android:strokeColor="#E24B4A"
+        android:strokeWidth="3"
+        android:pathData="M32,64a22,22 0 1,0 44,0a22,22 0 1,0 -44,0" />
+    <!-- ハイライト -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M42,55a5,5 0 1,0 10,0a5,5 0 1,0 -10,0" />
+    <!-- キャップ -->
+    <path
+        android:fillColor="#9A9A94"
+        android:pathData="M46,37h16v7h-16z" />
+    <!-- 導火線 -->
+    <path
+        android:strokeColor="#B08A5A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,37C54,31 58,29 63,28" />
+    <!-- 火花 -->
+    <path
+        android:fillColor="#FF9A1F"
+        android:pathData="M57,28a6.5,6.5 0 1,0 13,0a6.5,6.5 0 1,0 -13,0" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M60.5,28a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+</vector>
