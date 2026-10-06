@@ -33,11 +33,19 @@ data class Bomb(
     val isDanger get() = progress >= GameConfig.DANGER_PROGRESS
 }
 
+/** 出題モード（スタート画面で選択） */
+enum class QuestionMode(val label: String) {
+    READ_ONLY("読みのみ"),
+    WRITE_ONLY("書きのみ"),
+    ALTERNATE("読み書き交互"),
+}
+
 enum class GamePhase { START, PLAYING, GAME_OVER }
 
 data class GameUiState(
     val phase: GamePhase = GamePhase.START,
     val difficulty: Difficulty = Difficulty.GRADE3,
+    val mode: QuestionMode = QuestionMode.ALTERNATE,
     val bombs: List<Bomb> = emptyList(),
     val lives: Int = GameConfig.INITIAL_LIVES,
     val score: Int = 0,

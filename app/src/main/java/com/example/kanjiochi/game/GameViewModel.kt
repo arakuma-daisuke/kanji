@@ -35,14 +35,17 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
 
     fun selectDifficulty(d: Difficulty) = _state.update { it.copy(difficulty = d) }
 
+    fun selectMode(m: QuestionMode) = _state.update { it.copy(mode = m) }
+
     fun start() {
         val d = _state.value.difficulty
+        val m = _state.value.mode
         bags.clear()
         nextId = 0
         elapsed = 0f
         spawnTimer = GameConfig.BASE_SPAWN_INTERVAL - GameConfig.FIRST_SPAWN_DELAY
-        nextType = QuestionType.READ
-        _state.value = GameUiState(phase = GamePhase.PLAYING, difficulty = d)
+        nextType = if (m == QuestionMode.WRITE_ONLY) QuestionType.WRITE else QuestionType.READ
+        _state.value = GameUiState(phase = GamePhase.PLAYING, difficulty = d, mode = m)
         loop?.cancel()
         loop = viewModelScope.launch {
             val dt = GameConfig.TICK_MS / 1000f
@@ -99,7 +102,12 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         if (spawnTimer >= spawnInterval() && bombs.count { !it.isExploding } < GameConfig.MAX_BOMBS) {
             spawnTimer = 0f
             val q = nextQuestion(nextType)
-            nextType = if (nextType == QuestionType.READ) QuestionType.WRITE else QuestionType.READ
+            nextType = when (_state.value.mode) {
+                QuestionMode.READ_ONLY -> QuestionType.READ
+                QuestionMode.WRITE_ONLY -> QuestionType.WRITE
+                QuestionMode.ALTERNATE ->
+                    if (nextType == QuestionType.READ) QuestionType.WRITE else QuestionType.READ
+            }
             bombs = bombs + Bomb(nextId++, q, x = 0.15f + Random.nextFloat() * 0.7f)
         }
 

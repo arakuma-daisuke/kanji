@@ -32,8 +32,10 @@ class MainActivity : ComponentActivity() {
                 when (state.phase) {
                     GamePhase.START -> StartScreen(
                         selected = state.difficulty,
+                        mode = state.mode,
                         modelState = modelState,
                         onSelect = vm::selectDifficulty,
+                        onSelectMode = vm::selectMode,
                         onStart = vm::start,
                         onRetryModel = recognizer::prepare,
                     )

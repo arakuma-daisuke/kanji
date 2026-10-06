@@ -25,8 +25,10 @@ private val Night = Color(0xFF14161F)
 @Composable
 fun StartScreen(
     selected: Difficulty,
+    mode: QuestionMode,
     modelState: InkRecognizer.ModelState,
     onSelect: (Difficulty) -> Unit,
+    onSelectMode: (QuestionMode) -> Unit,
     onStart: () -> Unit,
     onRetryModel: () -> Unit,
 ) {
@@ -52,6 +54,21 @@ fun StartScreen(
                         modifier = Modifier.width(130.dp),
                     ) { Text(d.label) }
                 }
+            }
+        }
+        Spacer(Modifier.height(16.dp))
+        Text("出題モード", color = Color.White)
+        Spacer(Modifier.height(8.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            QuestionMode.values().forEach { m ->
+                Button(
+                    onClick = { onSelectMode(m) },
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = if (m == mode) Color(0xFFE24B4A) else Color(0xFF3A3D4D),
+                    ),
+                    contentPadding = PaddingValues(horizontal = 8.dp),
+                    modifier = Modifier.weight(1f),
+                ) { Text(m.label, fontSize = 13.sp, maxLines = 1) }
             }
         }
         Spacer(Modifier.height(24.dp))
@@ -95,7 +112,7 @@ fun GameOverScreen(state: GameUiState, onRetry: () -> Unit, onBack: () -> Unit) 
         Spacer(Modifier.height(16.dp))
         Text("スコア  ${state.score}", color = Color.White, fontSize = 28.sp)
         Text("最大コンボ  ${state.maxCombo}", color = Color(0xFFFFB300), fontSize = 18.sp)
-        Text("難易度: ${state.difficulty.label}", color = Color.LightGray, fontSize = 14.sp)
+        Text("難易度: ${state.difficulty.label} / ${state.mode.label}", color = Color.LightGray, fontSize = 14.sp)
         Spacer(Modifier.height(32.dp))
         Button(onClick = onRetry, modifier = Modifier.fillMaxWidth(0.7f).height(52.dp)) {
             Text("もう一度", fontSize = 20.sp)
