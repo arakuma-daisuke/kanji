@@ -1,4 +1,4 @@
-# 漢字サドンデス（Android）
+# 漢字ボンバー（Android）
 
 仕様は `CLAUDE.md` を参照。Android Studio で開いて実機/エミュレータで実行する（Gradle Wrapper は Android Studio が生成/同期する）。
 

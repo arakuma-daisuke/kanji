@@ -37,7 +37,7 @@ fun StartScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        Text("漢字サドンデス", color = Color(0xFFFFB300), fontSize = 36.sp)
+        Text("漢字ボンバー", color = Color(0xFFFFB300), fontSize = 36.sp)
         Text("爆弾が落ちる前に答えろ！", color = Color.White, fontSize = 16.sp)
         Spacer(Modifier.height(32.dp))
         Text("難易度", color = Color.White)
