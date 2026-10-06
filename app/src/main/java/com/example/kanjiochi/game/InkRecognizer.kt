@@ -57,7 +57,7 @@ class InkRecognizer {
                 }
                 builder.addStroke(sb.build())
             }
-            val contextBuilder = RecognitionContext.builder()
+            val contextBuilder = RecognitionContext.builder().setPreContext("")
             if (width > 0f && height > 0f) contextBuilder.setWritingArea(WritingArea(width, height))
             recognizer.recognize(builder.build(), contextBuilder.build())
                 .addOnSuccessListener { r ->
