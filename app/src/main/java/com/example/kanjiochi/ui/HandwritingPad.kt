@@ -34,6 +34,21 @@ fun HandwritingPad(
     var padSize by remember { mutableStateOf(IntSize.Zero) }
 
     Column(modifier, verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            OutlinedButton(onClick = { strokes.clear(); current = emptyList() }, Modifier.weight(1f)) {
+                Text("消す")
+            }
+            Button(
+                onClick = {
+                    if (strokes.isNotEmpty()) {
+                        onRecognize(strokes.toList(), padSize.width.toFloat(), padSize.height.toFloat())
+                        strokes.clear()
+                    }
+                },
+                enabled = enabled,
+                modifier = Modifier.weight(1f),
+            ) { Text("認識") }
+        }
         Canvas(
             Modifier
                 .weight(1f)
@@ -67,21 +82,6 @@ fun HandwritingPad(
             val guide = Color(0x22000000)
             drawLine(guide, Offset(padSize.width / 2f, 0f), Offset(padSize.width / 2f, padSize.height.toFloat()), 1.dp.toPx())
             drawLine(guide, Offset(0f, padSize.height / 2f), Offset(padSize.width.toFloat(), padSize.height / 2f), 1.dp.toPx())
-        }
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            OutlinedButton(onClick = { strokes.clear(); current = emptyList() }, Modifier.weight(1f)) {
-                Text("消す")
-            }
-            Button(
-                onClick = {
-                    if (strokes.isNotEmpty()) {
-                        onRecognize(strokes.toList(), padSize.width.toFloat(), padSize.height.toFloat())
-                        strokes.clear()
-                    }
-                },
-                enabled = enabled,
-                modifier = Modifier.weight(1f),
-            ) { Text("認識") }
         }
     }
 }
