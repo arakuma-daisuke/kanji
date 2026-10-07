@@ -82,6 +82,7 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         var lives = _state.value.lives
         var combo = _state.value.combo
         var missed = false
+        val missedQuestions = mutableListOf<Question>()
 
         var bombs = _state.value.bombs.mapNotNull { b ->
             when {
@@ -93,6 +94,7 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
                     val p = b.progress + speed * dt
                     if (p >= 1f) {
                         lives--; combo = 0; missed = true
+                        missedQuestions += b.question
                         null
                     } else b.copy(progress = p)
                 }
@@ -126,6 +128,7 @@ class GameViewModel(app: Application) : AndroidViewModel(app) {
         _state.value = s.copy(
             bombs = bombs, lives = lives.coerceAtLeast(0), combo = combo,
             flash = flash, writeIndex = writeIndex,
+            missed = s.missed + missedQuestions,
             phase = if (over) GamePhase.GAME_OVER else s.phase,
         )
         if (over) _events.tryEmit(GameEvent.GAME_OVER)

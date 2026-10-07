@@ -113,7 +113,31 @@ fun GameOverScreen(state: GameUiState, onRetry: () -> Unit, onBack: () -> Unit) 
         Text("スコア  ${state.score}", color = Color.White, fontSize = 28.sp)
         Text("最大コンボ  ${state.maxCombo}", color = Color(0xFFFFB300), fontSize = 18.sp)
         Text("難易度: ${state.difficulty.label} / ${state.mode.label}", color = Color.LightGray, fontSize = 14.sp)
-        Spacer(Modifier.height(32.dp))
+        if (state.missed.isNotEmpty()) {
+            Spacer(Modifier.height(16.dp))
+            Text("答えられなかった問題", color = Color(0xFFFF8A80), fontSize = 14.sp)
+            Spacer(Modifier.height(6.dp))
+            Column(
+                Modifier.weight(1f, fill = false).fillMaxWidth()
+                    .verticalScroll(androidx.compose.foundation.rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                state.missed.forEach { q ->
+                    Column(
+                        Modifier.fillMaxWidth().background(Color(0xFF1E2233)).padding(10.dp),
+                    ) {
+                        Text("${q.kanji}（${q.reading}）", color = Color.White, fontSize = 20.sp)
+                        // 書き問題は例文の漢字部分がカタカナなので、答えの漢字を入れた例文を出す
+                        val kata = q.reading.map { if (it in 'ぁ'..'ゖ') it + 0x60 else it }.joinToString("")
+                        Text(
+                            q.sentence.replace(kata, q.kanji),
+                            color = Color.LightGray, fontSize = 13.sp,
+                        )
+                    }
+                }
+            }
+        }
+        Spacer(Modifier.height(24.dp))
         Button(onClick = onRetry, modifier = Modifier.fillMaxWidth(0.7f).height(52.dp)) {
             Text("もう一度", fontSize = 20.sp)
         }

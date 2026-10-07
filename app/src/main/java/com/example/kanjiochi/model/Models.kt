@@ -55,6 +55,8 @@ data class GameUiState(
     val writeIndex: Int = 0,
     /** 画面フラッシュ（0..1） */
     val flash: Float = 0f,
+    /** 下端まで落ちて答えられなかった問題（結果画面で答えを表示する） */
+    val missed: List<Question> = emptyList(),
     /** 直近の判定メッセージ */
     val message: String = "",
 ) {
